@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for live collaboration text editor gaia",
+  "license": "ISC",
+  "author": "ishan",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lib0": "^0.2.103",
+    "nodemon": "^3.1.11",
+    "ws": "^8.18.3",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.27"
+  }
+}

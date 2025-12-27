@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 // Load environment variables
 dotenv.config();
 
-const host = process.env.HOST || "localhost";
+const host = process.env.HOST || "0.0.0.0";
 const port = parseInt(process.env.PORT || "1234");
 
 const wss = new WebSocketServer({ noServer: true });
